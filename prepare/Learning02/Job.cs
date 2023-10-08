@@ -17,6 +17,6 @@ public class Job
     // A method that displays the company's name, job title, start and end year
     public void Display()
     {
-        Console. WriteLine($"{_jobTitle}  ({_company}) {_startYear}-{_endYear}");
+        Console. WriteLine($"{_jobTitle}  {_company} {_startYear}-{_endYear}");
     }
 }
